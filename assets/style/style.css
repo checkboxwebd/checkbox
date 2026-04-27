@@ -1,0 +1,308 @@
+:root {
+  /* Blue Shades */
+  --primary-dark: #192c61;
+  --primary-light: #43537e;
+
+  /* Orange Shades */
+  --accent-dark: #e97f3b;
+  --accent-light: #ef9762;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--primary-dark);
+  color: #ffffff;
+}
+h1 {
+  font-size: 90px;
+  font-weight: 1.2;
+  font-weight: 600; /* SemiBold */
+}
+h2 {
+  font-size: 50px;
+}
+.navbar-expand-lg {
+  padding-top: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600; /* SemiBold */
+}
+.hero {
+  padding: 80px 0;
+}
+
+.hero .btn-outline-custom {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0px;
+  font-size: 23px;
+  list-style: 1.6;
+  padding: 10px 20px;
+}
+
+.hero .btn-outline-custom:hover {
+  background: #fff;
+  color: #162a63;
+}
+
+.hero .box-illustration {
+  max-width: 100%;
+}
+.what-is-the-box .container {
+  background-color: var(--primary-light);
+  padding: 50px 150px;
+  color: #ffffff;
+}
+.what-is-the-box .box h2 {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.what-is-the-box .box p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.meet-team-checkbox {
+  border: 1px solid #fff;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 0px;
+  font-size: 23px;
+  list-style: 1.6;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+}
+.projects-section .container {
+  background-color: var(--primary-light);
+  padding: 50px 50px;
+}
+.projects-section h3 {
+  font-size: 60px;
+}
+.btn-outline-light {
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.project-card {
+  background-color: #848fac;
+  padding: 50px 50px;
+}
+.project-card span.tag {
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.project-card h2 {
+  padding: 10px 0px;
+}
+.services-section .container {
+  padding: 50px 50px;
+  background-color: var(--primary-light);
+  color: #fff;
+}
+
+.services-box {
+  background-color: #5b6b91;
+  padding: 50px 50px;
+  border-radius: 0px;
+}
+
+.services-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.circle-number {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.btn-outline-light {
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.blog-section .container {
+  padding: 50px 50px;
+  background-color: var(--primary-light);
+  color: #fff;
+}
+
+.blog-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.blog-card {
+  background-color: #5b6b91;
+  padding: 25px;
+  border-radius: 0px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  margin-bottom: 15px;
+}
+
+.date-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+.blog-heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.btn-outline-light {
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+.touch-with-we .container {
+  background-color: #4b5e86;
+  border-radius: 0px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.touch-with-we .idea-box img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.touch-with-we .idea-box h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.touch-with-we .btn-custom {
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.touch-with-we .btn-custom:hover {
+  background-color: #fff;
+  color: #1f2f5a;
+}
+
+/* Connect Section */
+.connect-title {
+  margin: 40px 0 20px;
+  font-weight: 600;
+}
+
+.social-box {
+  width: 60px;
+  height: 60px;
+  background-color: #e67e3c;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* Footer Links */
+.footer-links a {
+  color: #cfd6e6;
+  font-size: 13px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Checkbox */
+.checkbox-area {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.checkbox-area input {
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox-area label {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+  .what-is-the-box .container {
+    padding: 20px 20px;
+  }
+  .meet-team-checkbox {
+    font-size: 20px;
+  }
+  .projects-section h3 {
+    font-size: 30px;
+  }
+  .project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .services-title {
+    font-size: 32px;
+  }
+  .project-card h2 {
+    font-size: 30px;
+  }
+  .service-item {
+    font-size: 22px;
+  }
+
+  .circle-number {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .footer .social-box {
+    width: 50px;
+    height: 50px;
+  }
+
+  .touch-with-we .idea-box {
+    padding: 30px 15px;
+  }
+}
