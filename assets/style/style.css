@@ -7,13 +7,25 @@
   --accent-dark: #e97f3b;
   --accent-light: #ef9762;
 }
+.meet-the-team {
+  background-color: var(--accent-dark);
+}
+.logo-slider img {
+  width: 120px;
+  margin: auto;
+  object-fit: contain;
+}
 
+.logo-slider div {
+  text-align: center;
+}
 body {
   font-family: "Poppins", sans-serif;
   background: var(--primary-dark);
   color: #ffffff;
 }
-h1 {
+h1,
+.h1 {
   font-size: 90px;
   font-weight: 1.2;
   font-weight: 600; /* SemiBold */
@@ -24,6 +36,9 @@ h2 {
 .navbar-expand-lg {
   padding-top: 30px;
 }
+.home-page .navbar-brand {
+  width: 100px;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 20px;
@@ -32,6 +47,9 @@ h2 {
 }
 .hero {
   padding: 80px 0;
+}
+.hero p {
+  font-size: 30px;
 }
 
 .hero .btn-outline-custom {
@@ -45,7 +63,7 @@ h2 {
 
 .hero .btn-outline-custom:hover {
   background: #fff;
-  color: #162a63;
+  color: var(--primary-dark);
 }
 
 .hero .box-illustration {
@@ -60,11 +78,13 @@ h2 {
   color: #ffffff;
   text-align: center;
   display: block;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 .what-is-the-box .box p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 .meet-team-checkbox {
   border: 1px solid #fff;
@@ -77,6 +97,10 @@ h2 {
   display: block;
   text-align: center;
   padding: 10px 20px;
+}
+.meet-team-checkbox a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .projects-section .container {
   background-color: var(--primary-light);
@@ -105,6 +129,7 @@ h2 {
 }
 .project-card h2 {
   padding: 10px 0px;
+  color: #fff;
 }
 .services-section .container {
   padding: 50px 50px;
@@ -115,6 +140,7 @@ h2 {
 .services-box {
   background-color: #5b6b91;
   padding: 50px 50px;
+  color: #fff;
   border-radius: 0px;
 }
 
@@ -129,11 +155,13 @@ h2 {
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 500;
+  color: #fff;
 }
 
 .circle-number {
   width: 50px;
   height: 50px;
+  color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
@@ -155,6 +183,7 @@ h2 {
 
 .blog-title {
   font-size: 48px;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -184,11 +213,13 @@ h2 {
   font-size: 14px;
   border-radius: 0px;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .blog-heading {
   font-size: 32px;
   font-weight: 600;
+  color: #ffffff;
   line-height: 1.2;
 }
 
@@ -211,19 +242,21 @@ h2 {
 .touch-with-we .idea-box h2 {
   font-weight: 600;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .touch-with-we .btn-custom {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   margin: 5px;
   padding: 8px 18px;
   font-size: 14px;
+  border-radius: 0px;
 }
 
 .touch-with-we .btn-custom:hover {
-  background-color: #fff;
-  color: #1f2f5a;
+  background-color: #ffffff;
+  color: var(--primary-dark);
 }
 
 /* Connect Section */
@@ -232,9 +265,10 @@ h2 {
   font-weight: 600;
 }
 
-.social-box {
-  width: 60px;
-  height: 60px;
+.social-box img {
+  width: 30px;
+  padding: 5px 5px;
+  height: 30px;
   background-color: #e67e3c;
   margin: 10px;
   display: inline-block;
@@ -242,33 +276,176 @@ h2 {
 
 /* Footer Links */
 .footer-links a {
-  color: #cfd6e6;
-  font-size: 13px;
+  color: #ffffff;
+  font-size: 20px;
   margin: 0 10px;
   text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.checkbox-area {
+  width: 100%;
+  margin: 30px auto 0 auto; /* center horizontally */
+  text-align: center;
+}
+
+.checkbox-area img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* extra safety */
+}
+.meet-team-section .section-text {
+  font-size: 33px;
+}
+.divider {
+  border: 2px solid #ffffff;
+  margin: 10px 0;
+}
+/* Founder Box */
+.founder-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0px;
+}
+.founder-box h3 {
+  font-size: 55px;
+}
+.our-teams h3 {
+  font-size: 55px;
+}
+
+/* Founder image placeholder */
+.founder-img {
+  width: 200px;
+  height: 200px;
+  /* background: #fff; */
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* Button */
+.btn-email {
+  border: 1px solid #fff;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+.founder p {
+  font-size: 25px;
+}
+.our-team {
+  background-color: var(--accent-light);
+}
+.our-team .content {
+  background-color: var(--accent-dark);
+  height: 300px;
+  padding: 30px;
+}
+.careers-section {
+  color: #fff;
+}
+
+/* Top box */
+/* Title */
+.careers-title {
+  font-size: 50px;
+}
+
+/* Button */
+.btn-career {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 20px;
+  border-radius: 0px;
+  font-weight: 500;
+}
+
+.btn-career:hover {
+  background: #fff;
+  color: var(--accent-dark);
+}
+
+/* Roles box */
+.roles-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0px;
+  padding: 40px;
+}
+
+/* Lists */
+.career-list,
+.career-desc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.career-list li {
+  font-weight: 600;
+  padding: 6px 0;
+  font-size: 20px;
+}
+
+.career-desc li {
+  padding: 6px 0;
+  font-size: 20px;
+  opacity: 0.95;
+}
+.careers-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0px;
+  margin-top: 40px;
+}
+.meet-the-team .social-box img {
+  background-color: var(--primary-dark);
+}
+/* Links */
+.footer-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .footer-links a:hover {
   color: #fff;
 }
 
-/* Checkbox */
-.checkbox-area {
-  margin-top: 30px;
-  text-align: center;
+/* bottom links */
+.footer-bottom-links a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
 }
 
-.checkbox-area input {
-  width: 18px;
-  height: 18px;
+.footer-bottom-links a:hover {
+  color: #fff;
 }
 
-.checkbox-area label {
-  display: block;
-  font-size: 12px;
-  margin-top: 5px;
+/* line */
+.footer-line {
+  border-color: rgba(255, 255, 255, 0.2);
 }
+
 @media (max-width: 768px) {
+  .meet-team-section h1,
+  .hero h1 {
+    font-size: 40px;
+  }
+  .meet-team-section p,
+  .hero p,
+  .what-is-the-box .box p {
+    text-align: left;
+  }
+  .what-is-the-box h1{
+    font-size: 30px;
+  }
   .what-is-the-box .container {
     padding: 20px 20px;
   }
