@@ -7,8 +7,8 @@
   --accent-dark: #e97f3b;
   --accent-light: #ef9762;
 }
-.meet-the-team {
-  background-color: var(--accent-dark);
+.meet-the-team, .bg-orange {
+  background-color: var(--accent-dark) !important;
 }
 .logo-slider img {
   width: 120px;
@@ -193,6 +193,10 @@ h2 {
   border-radius: 0px;
   height: 100%;
   transition: 0.3s;
+}
+
+.bg-orange .blog-card {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .blog-card:hover {
