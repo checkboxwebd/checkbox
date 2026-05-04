@@ -46,19 +46,19 @@
           <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto gap-lg-3 text-center">
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Team</a>
+                <a class="nav-link" href="meet-the-team.html">Our Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Services</a>
+                <a class="nav-link" href="our-service.html">Our Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Work</a>
+                <a class="nav-link" href="our-work.html">Our Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Our Words</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Get in Touch</a>
+                <a class="nav-link" href="get-in-touch.html">Get in Touch</a>
               </li>
             </ul>
           </div>
@@ -170,7 +170,7 @@
 
       <!-- Title -->
       <h2 class="project-title">
-        Creative Direction & <br> Website Design
+        Creative Direction &  Website Design
       </h2>
 
       <!-- Image -->
@@ -213,24 +213,39 @@
     </div>
 
     <!-- Services Box -->
-    <div class="services-box">
-      <div class="service-item">
-        <div class="circle-number">1.</div>
-        Branding
-      </div>
-      <div class="service-item">
-        <div class="circle-number">2.</div>
-        Marketing
-      </div>
-      <div class="service-item">
-        <div class="circle-number">3.</div>
-        Strategy
-      </div>
-      <div class="service-item">
-        <div class="circle-number">4.</div>
-        Design
-      </div>
+<div class="services-box">
+  <div class="service-item">
+    <div class="left">
+      <div class="circle-number">01.</div>
+      <span>Branding</span>
     </div>
+    <div class="arrow">→</div>
+  </div>
+
+  <div class="service-item">
+    <div class="left">
+      <div class="circle-number">02.</div>
+      <span>Marketing</span>
+    </div>
+    <div class="arrow">→</div>
+  </div>
+
+  <div class="service-item">
+    <div class="left">
+      <div class="circle-number">03.</div>
+      <span>Strategy</span>
+    </div>
+    <div class="arrow">→</div>
+  </div>
+
+  <div class="service-item">
+    <div class="left">
+      <div class="circle-number">04.</div>
+      <span>Design</span>
+    </div>
+    <div class="arrow">→</div>
+  </div>
+</div>
 
   </div>
 </section>
@@ -239,7 +254,7 @@
   <div class="container">
 
     <!-- Header -->
-    <div class="d-flex justify-content-between align-items-center mb-5 flex-wrap">
+    <div class="d-flex justify-content-between align-items-center mb-2 flex-wrap">
       <h2 class="blog-title">Our Blog</h2>
       <a href="#" class="btn btn-outline-light mt-3 mt-md-0">View All Posts</a>
     </div>
@@ -295,7 +310,7 @@
     <div class="idea-box">
         <!-- Icon -->
         <div class="mb-3">
-            💡
+                <img src="assets/images/lightbulb.png" alt="">
         </div>
 
         <h2>Want To Share Your Ideas</h2>
@@ -334,19 +349,19 @@
         <a href="#">Our Services</a>
         <a href="#">Our Work</a>
         <a href="#">Our Words</a>
-        <a href="#">Get In Touch</a>
+        <a href="get-in-touch.html">Get In Touch</a>
     </div>
 
     <!-- Checkbox -->
-    <div class="checkbox-area pb-5">
+    <div class="checkbox-area pb-2">
       <img src="assets/images/CheckBox.png" width="100%" alt="">
     </div>
 
     
-    <hr class="footer-line my-4">
+    <p class="footer-line my-4">
         <div class="container">
     <!-- Bottom Section -->
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center gap-2">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center gap-2 pb-3">
 
       <p class="mb-0 text-light">
         © 2026 Checkbox.co.in All Rights Reserved
@@ -370,16 +385,20 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Slick JS -->
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
+<script>
 $(document).ready(function(){
   $('.logo-slider').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 0,        // IMPORTANT: no delay
+    speed: 3000,             // controls smoothness (higher = smoother)
+    cssEase: 'linear',       // makes movement continuous
     arrows: false,
     dots: false,
     infinite: true,
+    pauseOnHover: false,     // keeps moving even on hover
+    pauseOnFocus: false,
     responsive: [
       {
         breakpoint: 1024,
