@@ -6,10 +6,20 @@
   /* Orange Shades */
   --accent-dark: #e97f3b;
   --accent-light: #ef9762;
+
+  /* black shades */
+  --black-dark: #010101;
 }
-.meet-the-team {
-  background-color: var(--accent-dark);
+
+.meet-the-team,
+.bg-orange {
+  background-color: var(--accent-dark) !important;
 }
+
+.bg-black {
+  background-color: var(--black-dark) !important;
+}
+
 .logo-slider img {
   width: 120px;
   margin: auto;
@@ -19,35 +29,45 @@
 .logo-slider div {
   text-align: center;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background: var(--primary-dark);
   color: #ffffff;
 }
+
 h1,
 .h1 {
   font-size: 70px;
   font-weight: 1.2;
-  font-weight: 600; /* SemiBold */
+  font-weight: 600;
+  /* SemiBold */
 }
+
 h2 {
   font-size: 50px;
 }
+
 .navbar-expand-lg {
   padding-top: 30px;
 }
+
 .home-page .navbar-brand {
   width: 100px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #ffffff;
   font-size: 20px;
   line-height: 1.2;
-  font-weight: 600; /* SemiBold */
+  font-weight: 600;
+  /* SemiBold */
 }
+
 .hero {
   padding: 80px 0;
 }
+
 .hero p {
   font-size: 30px;
 }
@@ -69,11 +89,13 @@ h2 {
 .hero .box-illustration {
   max-width: 100%;
 }
+
 .what-is-the-box .container {
   background-color: var(--primary-light);
   padding: 50px 150px;
   color: #ffffff;
 }
+
 .what-is-the-box .box h2 {
   color: #ffffff;
   text-align: center;
@@ -81,11 +103,13 @@ h2 {
   font-size: 45px;
   margin-bottom: 20px;
 }
+
 .what-is-the-box .box p {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
 }
+
 .meet-team-checkbox {
   border: 1px solid #fff;
   color: #ffffff;
@@ -98,17 +122,21 @@ h2 {
   text-align: center;
   padding: 10px 20px;
 }
+
 .meet-team-checkbox a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .projects-section .container {
   background-color: var(--primary-light);
   padding: 50px 50px;
 }
+
 .projects-section h3 {
   font-size: 60px;
 }
+
 .btn-outline-light {
   border: 1px solid #ffffff;
   border-radius: 0px;
@@ -116,10 +144,12 @@ h2 {
   font-size: 20px;
   padding: 5px 20px;
 }
+
 .project-card {
   background-color: #848fac;
   padding: 50px 50px;
 }
+
 .project-card span.tag {
   border: 1px solid #ffffff;
   border-radius: 0px;
@@ -127,10 +157,12 @@ h2 {
   font-size: 20px;
   padding: 5px 20px;
 }
+
 .project-card h2 {
   padding: 10px 0px;
   color: #fff;
 }
+
 .services-section .container {
   padding: 50px 50px;
   background-color: var(--primary-light);
@@ -198,6 +230,7 @@ h2 {
   border-radius: 3px;
   padding: 10px 20px;
 }
+
 .blog-section .container {
   padding: 30px 30px;
   background-color: var(--primary-light);
@@ -216,6 +249,10 @@ h2 {
   border-radius: 0px;
   height: 100%;
   transition: 0.3s;
+}
+
+.bg-orange .blog-card {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .blog-card:hover {
@@ -250,6 +287,7 @@ h2 {
   border-radius: 0px;
   padding: 10px 20px;
 }
+
 .touch-with-we .container {
   background-color: #4b5e86;
   border-radius: 0px;
@@ -311,7 +349,8 @@ h2 {
 
 .checkbox-area {
   width: 100%;
-  margin: 30px auto 0 auto; /* center horizontally */
+  margin: 30px auto 0 auto;
+  /* center horizontally */
   text-align: center;
 }
 
@@ -319,11 +358,14 @@ h2 {
   width: 100px;
   height: auto;
   display: block;
-  margin: 0 auto; /* extra safety */
+  margin: 0 auto;
+  /* extra safety */
 }
+
 .meet-team-section .section-text {
   font-size: 33px;
 }
+
 .divider {
   border: 2px solid #ffffff;
   margin: 10px 0;
@@ -345,14 +387,17 @@ h2 {
   background: #fff;
   z-index: -1;
 }
+
 /* Founder Box */
 .founder-box {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 0px;
 }
+
 .founder-box h3 {
   font-size: 55px;
 }
+
 .our-teams h3 {
   font-size: 55px;
 }
@@ -375,17 +420,21 @@ h2 {
   border-radius: 0px;
   padding: 10px 20px;
 }
+
 .founder p {
   font-size: 25px;
 }
+
 .our-team {
   background-color: var(--accent-light);
 }
+
 .our-team .content {
   background-color: var(--accent-dark);
   height: 300px;
   padding: 30px;
 }
+
 .careers-section {
   color: #fff;
 }
@@ -437,14 +486,17 @@ h2 {
   font-size: 20px;
   opacity: 0.95;
 }
+
 .careers-box {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 0px;
   margin-top: 40px;
 }
+
 .meet-the-team .social-box img {
   /* background-color: var(--primary-dark); */
 }
+
 /* Links */
 .footer-links a {
   color: #ffffff;
@@ -660,37 +712,47 @@ h2 {
   .project-card .project-image img {
     height: auto;
   }
+
   .meet-team-section h1,
   .hero h1 {
     font-size: 40px;
   }
+
   .meet-team-section p,
   .hero p,
   .what-is-the-box .box p {
     text-align: left;
   }
+
   .what-is-the-box h1 {
     font-size: 30px;
   }
+
   .what-is-the-box .container {
     padding: 20px 20px;
   }
+
   .meet-team-checkbox {
     font-size: 20px;
   }
+
   .projects-section h3 {
     font-size: 30px;
   }
+
   .project-card {
     padding: 20px;
     margin-bottom: 20px;
   }
+
   .services-title {
     font-size: 32px;
   }
+
   .project-card h2 {
     font-size: 30px;
   }
+
   .service-item {
     font-size: 22px;
   }
@@ -700,6 +762,7 @@ h2 {
     height: 40px;
     font-size: 14px;
   }
+
   .footer .social-box {
     width: 50px;
     height: 50px;
