@@ -355,12 +355,14 @@ h2 {
 }
 
 .social-box img {
-  width: 30px;
+  /* width: 30px; */
   padding: 5px 5px;
-  height: 30px;
+  /* height: 30px; */
   /* background-color: #e67e3c; */
   margin: 10px;
   display: inline-block;
+  max-width: 50px;
+  box-sizing: content-box;
 }
 
 /* Footer Links */
