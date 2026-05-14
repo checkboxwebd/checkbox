@@ -96,11 +96,18 @@ h2 {
   padding: 10px 20px;
 }
 
-.hero .btn-outline-custom:hover {
+.hero .btn-outline-custom:hover,
+.meet-team-checkbox:hover
+ {
   background: #fff;
   color: var(--primary-dark);
 }
-
+.meet-team-checkbox a:hover{
+ color: var(--primary-dark);
+}
+.projects-section .btn:hover{
+  color: var(--primary-dark);
+}
 .hero .box-illustration {
   max-width: 100%;
 }
@@ -121,7 +128,8 @@ h2 {
 
 .what-is-the-box .box p {
   color: #ffffff;
-  font-size: 30px;
+ font-size: 20px;
+    line-height: 1.6;
   text-align: center;
 }
 
@@ -444,7 +452,8 @@ h2 {
 }
 
 .founder p {
-  font-size: 25px;
+ font-size: 20px;
+    line-height: 1.6;
 }
 
 .our-team {
@@ -543,7 +552,7 @@ h2 {
 }
 .what-is-the-box .box h1 {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-size: 50px;
 }
 /* line */
@@ -597,7 +606,7 @@ h2 {
 }
 
 .marketing-strategies p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
