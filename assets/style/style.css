@@ -730,7 +730,8 @@ h2 {
   background: #fff;
 }
 .our-words-page {
-  background-color: #e64c56;
+  /* background-color: #e64c56; */
+  background-color: #4B2E83;
 }
 .blogs-section {
   color: #fff;
@@ -760,6 +761,9 @@ h2 {
   padding-top: 10px;
 }
 
+.blogs-section .post-title.bolder {
+  font-weight: 900;
+}
 .blogs-section .post-title:hover {
   text-decoration: underline;
 }
@@ -916,5 +920,9 @@ h2 {
   }
   .footer h3 {
     font-size: 30px;
+  }
+
+  .blogs-section .w-75 {
+    width: 100% !important;
   }
 }
