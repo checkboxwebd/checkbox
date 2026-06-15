@@ -23,7 +23,7 @@
 .brands-logo-slider .logo-slider {
   display: flex;
   align-items: center;
-  
+
 }
 
 .brands-logo-slider .logo-slider div {
@@ -34,12 +34,16 @@
 }
 
 .brands-logo-slider .logo-slider img {
-  width: 160px; /* same width for all */
-  height: 150px; /* same height for all */
-  object-fit: contain; /* image distortion avoid */
+  width: 160px;
+  /* same width for all */
+  height: 150px;
+  /* same height for all */
+  object-fit: contain;
+  /* image distortion avoid */
   display: block;
   margin: 0 auto;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background: var(--primary-dark);
@@ -48,8 +52,8 @@ body {
 
 h1,
 .h1 {
-     font-size: 90px;
-    font-weight: 600;
+  font-size: 90px;
+  font-weight: 600;
   /* SemiBold */
 }
 
@@ -76,14 +80,20 @@ h2 {
 .hero {
   padding: 80px 0 0 0;
 }
-.hero h1{
-      font-size: 90px;
-    font-weight: 600;
+
+.hero .pl-70 {
+  padding-left: 70px;
+}
+
+.hero h1 {
+  font-size: 90px;
+  font-weight: 600;
 
 }
+
 .hero p {
-      font-size: 20px;
-    line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.6;
 
 }
 
@@ -97,17 +107,19 @@ h2 {
 }
 
 .hero .btn-outline-custom:hover,
-.meet-team-checkbox:hover
- {
+.meet-team-checkbox:hover {
   background: #fff;
   color: var(--primary-dark);
 }
-.meet-team-checkbox a:hover{
- color: var(--primary-dark);
-}
-.projects-section .btn:hover{
+
+.meet-team-checkbox a:hover {
   color: var(--primary-dark);
 }
+
+.projects-section .btn:hover {
+  color: var(--primary-dark);
+}
+
 .hero .box-illustration {
   max-width: 100%;
 }
@@ -128,8 +140,8 @@ h2 {
 
 .what-is-the-box .box p {
   color: #ffffff;
- font-size: 20px;
-    line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.6;
   text-align: center;
 }
 
@@ -173,7 +185,8 @@ h2 {
   padding: 50px 50px;
 }
 
-.project-card span.tag, .more-tag {
+.project-card span.tag,
+.more-tag {
   border: 1px solid #ffffff;
   border-radius: 0px;
   font-weight: 600;
@@ -209,6 +222,7 @@ h2 {
   border-radius: 0px;
   transition: all 0.3s ease;
 }
+
 .service-item:hover {
   background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
@@ -394,20 +408,22 @@ h2 {
 
 .meet-team-section .section-text,
 .our-work-section p {
- font-size: 20px;
-    line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .divider {
   border: 2px solid #ffffff;
   margin: 10px 0;
 }
+
 .founder {
   position: relative;
   max-width: 90%;
   display: block;
   margin: 0 auto;
 }
+
 .founder::before {
   content: "";
   position: absolute;
@@ -454,8 +470,8 @@ h2 {
 }
 
 .founder p {
- font-size: 20px;
-    line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .our-team {
@@ -552,11 +568,13 @@ h2 {
 .footer-bottom-links a:hover {
   color: #fff;
 }
+
 .what-is-the-box .box h1 {
   text-align: center;
   padding-bottom: 20px;
   font-size: 50px;
 }
+
 /* line */
 .footer-line {
   position: relative;
@@ -567,13 +585,16 @@ h2 {
   margin: 0 auto;
   top: 0px;
 }
+
 .footer .social-service {
   display: flex;
   justify-content: center;
 }
+
 .our-service {
   background-color: #e87490;
 }
+
 .project-card .project-image img {
   height: 500px;
 }
@@ -641,6 +662,7 @@ h2 {
 .cta-section .cta-icon {
   font-size: 60px;
 }
+
 .cta-section .cta-icon img {
   width: 300px;
 }
@@ -666,9 +688,11 @@ h2 {
   background: #fff;
   color: #d96a84;
 }
+
 .our-serice-footer .social-box img {
   /* background-color: var(--primary-dark); */
 }
+
 .marketing-strategies::before {
   content: "";
   position: absolute;
@@ -680,6 +704,7 @@ h2 {
   background: #fff;
   z-index: -1;
 }
+
 .our-work-page {
   background-color: #010101;
 }
@@ -715,33 +740,40 @@ h2 {
   font-size: 25px;
   font-weight: 500;
 }
+
 .our-work-blogs {
-  position: relative; /* जरूरी */
+  position: relative;
+  /* जरूरी */
 }
 
 .our-work-blogs::before {
   content: "";
   position: absolute;
-  top: 0px; /* adjust spacing above section */
+  top: 0px;
+  /* adjust spacing above section */
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
   height: 2px;
   background: #fff;
 }
+
 .our-words-page {
   /* background-color: #e64c56; */
   background-color: #4B2E83;
 }
+
 .blogs-section {
   color: #fff;
   width: 100%;
   position: relative;
 }
-#our-words{
+
+#our-words {
   width: 100%;
   position: relative;
 }
+
 #our-words::after {
   content: "";
   position: absolute;
@@ -753,6 +785,7 @@ h2 {
   background: #fff;
   z-index: -1;
 }
+
 .blogs-section .post-title {
   color: #fff;
   text-decoration: none;
@@ -764,6 +797,7 @@ h2 {
 .blogs-section .post-title.bolder {
   font-weight: 900;
 }
+
 .blogs-section .post-title:hover {
   text-decoration: underline;
 }
@@ -771,29 +805,36 @@ h2 {
 .blogs-section .post-img {
   transition: 0.4s ease;
 }
+
 .blogs-section p {
   font-size: 20px;
 }
+
 .blogs-section .post-img:hover {
   transform: scale(1.05);
 }
+
 .blogs-section .blog-card {
   background-color: transparent;
   padding: 10px;
 }
+
 .blogs-section .fs-40 {
   font-size: 50px;
   margin-bottom: 10px;
 }
+
 .blogs-section h2 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .blogs-section .blog-card img {
   border-radius: 0px;
   transition: 0.4s;
   margin-bottom: 30px;
 }
+
 .blogs-section .post-title:hover {
   text-decoration: none;
 }
@@ -805,54 +846,72 @@ h2 {
 .blogs-section .blog-card h5 {
   margin-top: 20px;
 }
+
 .blogs-section .badge-btn {
   border: 1px solid #ffffff;
   color: #ffffff;
   padding: 6px 10px;
   font-size: 20px;
 }
+
 .footer .footer-links {
   display: flex;
   justify-content: center;
 }
+
 @media (max-width: 768px) {
   .footer .footer-links {
     flex-direction: column;
   }
+
   .footer-links a {
     padding: 10px 0px;
     font-size: 21px;
   }
+
   .project-card div {
     flex-direction: column;
   }
+
   .our-work-blogs .btn-outline-light {
     font-size: 20px;
   }
+
   .our-work-blogs .project-images img {
     height: 100%;
   }
+
   .marketing-strategies h2 {
     font-size: 35px;
   }
+
   .founder-box h3 {
     font-size: 45px;
   }
+
   .cta-section .cta-icon img {
     width: 150px;
   }
+
   .hero {
     padding: 0px 0;
   }
+
+  .hero .pl-70 {
+    padding-left: 0px;
+  }
+
   .services-box,
   .blog-card {
     padding: 20px;
   }
+
   .projects-section .container,
   .services-section .container,
   .touch-with-we .container {
     padding: 20px 20px;
   }
+
   .project-card .project-image img {
     height: auto;
   }
@@ -915,9 +974,11 @@ h2 {
   .connect-title {
     font-size: 30px;
   }
+
   .founder::before {
     top: -4%;
   }
+
   .footer h3 {
     font-size: 30px;
   }
